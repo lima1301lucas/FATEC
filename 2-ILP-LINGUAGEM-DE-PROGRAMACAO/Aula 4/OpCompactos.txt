@@ -1,0 +1,7 @@
+Quais os valores das variáveis x e y após a execução dessas instruções?
+
+1 - Seja x=3 e a instrução y = x * (x + 1) * x++
+Resposta: 36
+
+2 - Seja x=5, y = 3 e a instrução y *= x+1
+Resposta: 18
