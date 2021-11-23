@@ -18,14 +18,15 @@ void LeALuno(Aluno alunos[], int n) {
         scanf("%s", &alunos[i].matricula, 9, stdin);
 
         printf("Média final do aluno: ");
-        scanf("%f", &alunos[i].mediaFinal);
+        scanf("%f%*c", &alunos[i].mediaFinal);
     }
 }
 
 void ImprimeAluno(Aluno alunos[], int n) {
     int i;
+    printf("\n ---- VISUALIZAÇÃO ----");
     for (i = 0; i < n; i++) {
-        printf("Nome: %s\n", alunos[i].nome);
+        printf("\nNome: %s\n", alunos[i].nome);
         printf("Matrícula: %s\n", alunos[i].matricula);
         printf("Média final: %.2f\n", alunos[i].mediaFinal);
     }
@@ -36,7 +37,7 @@ int main() {
     UINT CPAGE_DEFAULT = GetConsoleOutputCP();
     SetConsoleOutputCP(CPAGE_UTF8);
 
-    int numAlunos = 5;
+    int numAlunos = 2;
     Aluno alunos[numAlunos];
     LeALuno(alunos, numAlunos);
     ImprimeAluno(alunos, numAlunos);
