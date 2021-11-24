@@ -41,9 +41,9 @@ int main() {
     UINT CPAGE_DEFAULT = GetConsoleOutputCP();
     SetConsoleOutputCP(CPAGE_UTF8);
 
-    CONSULTA agenda[2];
-	LeConsulta(agenda, 2);
-	ImprimeConsulta(agenda, 2);
+    CONSULTA agenda[10];
+	LeConsulta(agenda, 10);
+	ImprimeConsulta(agenda, 10);
 
     SetConsoleOutputCP(CPAGE_DEFAULT);
     system("pause");
