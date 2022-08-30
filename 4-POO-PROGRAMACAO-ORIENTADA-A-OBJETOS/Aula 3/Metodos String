@@ -1,0 +1,5 @@
+1 - Pesquise e apresente 3 métodos da classe String exemplificando seu uso
+
+- split – Divide a String em varias substrings a partir de um regex.
+- replace - Pesquisa o valor de um caracter específico e substitui esse valor retornando a variável alterada.
+- length - Retorna a quantidade de caracteres da string.
