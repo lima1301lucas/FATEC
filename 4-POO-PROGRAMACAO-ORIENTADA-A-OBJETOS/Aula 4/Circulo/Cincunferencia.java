@@ -11,7 +11,7 @@ class Circunferencia
         setRaio(r);
     }
 
-    void setRaio(double r) {
+    public void setRaio(double r) {
         raio = r;
     }
 
