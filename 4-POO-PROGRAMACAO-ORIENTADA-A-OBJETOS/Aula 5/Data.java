@@ -1,7 +1,8 @@
 private boolean bissexto(int anoTeste){
 
-    if ((anoTeste % 4 == 0 && anoTeste % 100 != 0) || (anoTeste % 400 == 0)) return true;
-    return false;
+    if ((anoTeste % 4 == 0 && anoTeste % 100 != 0) || (anoTeste % 400 == 0)) 
+        return true;
+    else return false;
 }
 
 private int checkDia (int diaTeste){
