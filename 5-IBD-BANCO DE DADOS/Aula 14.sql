@@ -41,12 +41,12 @@ CREATE TABLE ALMOXARIFE (
 
 INSERT INTO ALMOXARIFE (NAlmox, Almoxarife) VALUES (1001, 'João da Silva'),
 (1002, 'Antônio Prado'),
-(1003, 'Lourenço'),
+(1003, 'Lourenço Dias'),
 (1004, 'João Antônio'),
-(1005, 'Silvino'),
+(1005, 'Silvino Torres'),
 (1006, 'Antônio Sanos'),
-(1007, 'Lourenço da Silva'),
-(1008, 'Lourenço Melo');
+(1007, 'Valter Souza'),
+(1008, 'Sergio Melo');
 
 SELECT * FROM ALMOXARIFE;
 
