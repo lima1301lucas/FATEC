@@ -57,7 +57,6 @@ h4{
     width: 65vw;
     height: 72.5vh;
     margin-left: 5vw;    
-    /* background-color: blue; */
 }
 
 .form-conteudo{
@@ -169,6 +168,8 @@ input{
 
     .inp-certificado{
         width: 100%;
+        border: none;
+        padding: 10px 0px 0px 0px;
     }
 }
 
@@ -192,13 +193,26 @@ input{
     }
 }
 
-
 .turno{
     height: 10vh;
     width: 25vw;
-    .inp-nome{
-        width: 100%;
-    }
+}
+
+.inp-turno{
+    width: 18px;
+}
+
+.lbl-option{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+.turno-opcoes{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .modalidade{
@@ -218,7 +232,10 @@ input{
     margin-left: 2.5vw;
 
 
-    .inp-cpf{
+    .inp-curso{
+        height: 4vh;
+        border: 1px solid #676767;
+        border-radius: 5px;
         width: 100%;
     }
 }
@@ -242,8 +259,27 @@ input{
     }
 }
 
+.enviar{
+    height: 10vh;
+    width: 15vw;
+    margin: 20px 0px 0px 600px;
+}
+
+.btn-enviar{
+    width: 200px;
+    height: 50px;
+    background-color: #38A3A5;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
 
+    input{
+        height: 5vh;
+    }
 
     .instrucoes{
         width: 25vw;
@@ -256,6 +292,10 @@ input{
         margin-left: 2.5vw;
     }
 
+    .form-conteudo{
+        height: 12vh;
+    }
+
     .subtitulo{
         padding: 15px 0px;
     }
@@ -263,5 +303,15 @@ input{
     .conteudo{
         padding: 12px 0px;
         text-align: left;
+    }
+
+    .enviar{
+        height: 10vh;
+        width: 10vw;
+        margin: 20px 0px 0px 245px;
+    }
+
+    .btn-enviar{
+        height: 40px;
     }
 }

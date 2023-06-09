@@ -92,24 +92,29 @@
                     <div class="form-conteudo">
                         <div class="turno">
                             <p class="label-input">Turno:</p>
-                            <input type="checkbox" id="inp-turno" value="manha">
-                            <label for="inp-turno">Manhã</label>
-                            <input type="checkbox" id="inp-turno" value="tarde">
-                            <label for="inp-turno">Tarde</label>
-                            <input type="checkbox" id="inp-turno" value="noite">
-                            <label for="inp-turno">Noite</label>
+                            <div class="turno-opcoes">
+                                <input type="radio" value="manha" class="inp-turno" name="opcao-turno">
+                                <label class="lbl-option">Manhã</label>
+                                <input type="radio" value="tarde" class="inp-turno" name="opcao-turno">
+                                <label class="lbl-option">Tarde</label>
+                                <input type="radio" value="noite" class="inp-turno" name="opcao-turno">
+                                <label class="lbl-option">Noite</label>
+                            </div>
                         </div>
                         <div class="modalidade">
                             <p class="label-input">Modalidade:</p>
-                            <input type="checkbox" id="inp-mod" value="ead">
-                            <label for="inp-turno">EAD</label>
-                            <input type="checkbox" id="inp-turno" value="presencial">
-                            <label for="inp-turno">Presencial</label>
+                            <div class="turno-opcoes">
+                                <input type="radio" value="ead" class="inp-turno" name="opcao-modalidade">
+                                <label class="lbl-option">EAD</label>
+                                <input type="radio" value="presencial" class="inp-turno" name="opcao-modalidade">
+                                <label class="lbl-option">Presencial</label>
+                            </div>
                         </div>
                         <div class="curso">
                             <p class="label-input">Curso:</p>
-                            <select name="" id="">
-                                <option value="">Lorem Ipsum Lorem Ipsum</option>
+                            <select name="" id="" class="inp-curso">
+                                <option value="0" selected></option>
+                                <option value="">Análise e Desenvolvimento de Sistemas</option>
                             </select>
                         </div>
                     </div>
@@ -121,6 +126,9 @@
                         <div class="confirmaSenha">
                             <p class="label-input">Confirme a senha:</p>
                             <input type="password" class="inp-confirmaSenha">
+                        </div>
+                        <div class="enviar">
+                            <button class="btn-enviar">ENVIAR</button>
                         </div>
                     </div>
                 </form>
