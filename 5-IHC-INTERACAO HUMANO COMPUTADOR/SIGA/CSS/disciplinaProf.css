@@ -1,0 +1,47 @@
+.funcoes{
+    width: 65vw;
+    margin: 5vh 5vw;
+    position: relative;
+}
+
+.bloco-disciplina{
+    width: 65vw;
+    margin-bottom: 30px;
+}
+
+.detalhes{
+    width: 65vw;
+    height: 5vh;
+    background-color: #38A3A5;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+}
+
+.titulo{
+    width: 60vw;
+    height: auto;
+    margin: 12px 15px;
+}
+
+.titulo h2{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ver-mais{
+    margin: 12px 15px;
+}
+
+.descricao-materia{
+    width: 65vw;
+    height: auto;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #d9d9d980;
+    display: none;
+}
+
+.descricao-materia p{
+    color: #3f3f3f;
+    padding: 12px 15px 15px 15px;
+}

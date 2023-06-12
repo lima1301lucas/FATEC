@@ -1,0 +1,113 @@
+.login {
+    width: 25vw;
+    height: 40vh;
+    background-color: #f1f1f1;
+    margin: 25vh auto;
+    padding-top: 3vh;
+}
+
+h2{
+    text-align: center;
+    font-size: 26px;
+    color: #676767;
+}
+
+.user{
+    width: 20vw;
+    height: 10vh;
+    margin: 2.5vh 0 0 2.5vw;
+}
+
+.senha{
+    width: 20vw;
+    height: 10vh;
+    margin: 0vh 2.5vw;
+}
+
+.label-input{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #676767;
+}
+
+input{
+    width: 100%;
+    height: 4vh;
+    font-size: 18px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.redefinir-senha{
+    width: 20vw;
+    height: 3vh;
+    margin: 1vh 2.5vw;
+    text-align: center;
+}
+
+a{
+    font-size: 18px;
+    text-align: center;
+    color: #676767;
+}
+
+.btn-login{
+    width: 20vw;
+    height: 10vh;
+    margin: 2.5vh 0 0 2.5vw;
+}
+
+button{
+    width: 100%;
+    height: 5vh;
+    background-color: #38A3A5;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px){
+    .login {
+        width: 30vw;
+        height: 50vh;
+        background-color: #f1f1f1;
+        margin: 20vh auto;
+        padding-top: 3vh;
+    }
+
+    .user{
+        width: 25vw;
+        height: 10vh;
+        margin: 2.5vh 0 0 2.5vw;
+    }
+
+    input{
+        height: 5vh;
+    }
+
+    .senha{
+        width: 25vw;
+        height: 10vh;
+        margin: 4vh 0 0 2.5vw;
+    }
+
+    .redefinir-senha{
+        width: 25vw;
+        height: 3vh;
+        margin: 3vh 2.5vw;
+        text-align: center;
+    }
+
+    .btn-login{
+        width: 25vw;
+        height: 10vh;
+        margin: 2.5vh 0 0 2.5vw;
+    }
+
+    button{
+        height: 6vh;
+    }
+}

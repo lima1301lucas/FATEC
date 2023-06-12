@@ -1,0 +1,317 @@
+.matricula{
+    width: 90vw;
+    height: 80vh;
+    margin: 10vh auto;
+}
+
+.titulo{
+    width: 90vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    width: 1vw;
+    height: 4vh;
+    background-color: #38A3A5;
+}
+
+h1{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.area-matricula{
+    display: flex;
+    margin: 2.5vh 0vw;
+}
+
+.instrucoes{
+    width: 20vw;
+    height: 72.5vh;
+    border: 1px solid #676767;
+    border-radius: 5px;
+}
+
+.instrucoes-conteudo{
+    padding: 20px;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.subtitulo{
+    padding: 10px 0px;
+}
+
+.conteudo{
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.form-matricula{
+    width: 65vw;
+    height: 72.5vh;
+    margin-left: 5vw;    
+}
+
+.form-conteudo{
+    display: flex;
+}
+
+.label-input{
+    height: 3vh;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+input{
+    height: 4vh;
+    border: 1px solid #676767;
+    border-radius: 5px;
+}
+
+.nome{
+    height: 10vh;
+    width: 30vw;
+    
+    .inp-nome{
+        width: 100%;
+    }
+}
+
+.rg{
+    height: 10vh;
+    width: 15vw;
+    margin-left: 2.5vw;
+
+    .inp-rg{
+        width: 100%;
+    }
+}
+
+.cpf{
+    height: 10vh;
+    width: 15vw;
+    margin-left: 2.5vw;
+
+    .inp-cpf{
+        width: 100%;
+    }
+}
+
+.email{
+    height: 10vh;
+    width: 30vw;
+
+    .inp-email{
+        width: 100%;
+    }
+}
+
+.dataNasc{
+    height: 10vh;
+    width: 15vw;
+    margin-left: 2.5vw;
+
+    .inp-dataNasc{
+        width: 100%;
+    }
+}
+
+.telefone{
+    height: 10vh;
+    width: 15vw;
+    margin-left: 2.5vw;
+
+    .inp-telefone {
+        width: 100%;
+    }
+}
+
+.cep{
+    height: 10vh;
+    width: 15vw;
+
+    .inp-cep{
+        width: 100%;
+    }
+}
+
+.endereco{
+    height: 10vh;
+    width: 30vw;
+    margin-left: 2.5vw;
+
+    .inp-endereco{
+        width: 100%;
+    }
+}
+
+.numero{
+    height: 10vh;
+    width: 15vw;
+    margin-left: 2.5vw;
+
+    .inp-numero{
+        width: 100%;
+    }
+}
+
+.certificado{
+    height: 10vh;
+    width: 25vw;
+
+    .inp-certificado{
+        width: 100%;
+        border: none;
+        padding: 10px 0px 0px 0px;
+    }
+}
+
+.anoConclusao{
+    height: 10vh;
+    width: 15vw;
+    margin-left: 2.5vw;
+
+    .inp-dataConclusao{
+        width: 100%;
+    }
+}
+
+.instituicao{
+    height: 10vh;
+    width: 20vw;
+    margin-left: 2.5vw;
+
+    .inp-instituicao {
+        width: 100%;
+    }
+}
+
+.turno{
+    height: 10vh;
+    width: 25vw;
+}
+
+.inp-turno{
+    width: 18px;
+}
+
+.lbl-option{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+.turno-opcoes{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.modalidade{
+    height: 10vh;
+    width: 15vw;
+    margin-left: 2.5vw;
+    
+
+    .inp-rg{
+        width: 100%;
+    }
+}
+
+.curso{
+    height: 10vh;
+    width: 20vw;
+    margin-left: 2.5vw;
+
+
+    .inp-curso{
+        height: 4vh;
+        border: 1px solid #676767;
+        border-radius: 5px;
+        width: 100%;
+    }
+}
+
+.senha{
+    height: 10vh;
+    width: 15vw;
+
+    .inp-senha{
+        width: 100%;
+    }
+}
+
+.confirmaSenha{
+    height: 10vh;
+    width: 15vw;
+    margin-left: 2.5vw;
+
+    .inp-confirmaSenha{
+        width: 100%;
+    }
+}
+
+.enviar{
+    height: 10vh;
+    width: 15vw;
+    margin: 20px 0px 0px 600px;
+}
+
+.btn-enviar{
+    width: 200px;
+    height: 50px;
+    background-color: #38A3A5;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+
+    input{
+        height: 5vh;
+    }
+
+    .instrucoes{
+        width: 25vw;
+        height: 72.5vh;
+    }
+
+    .form-matricula{
+        width: 65vw;
+        height: 72.5vh;
+        margin-left: 2.5vw;
+    }
+
+    .form-conteudo{
+        height: 12vh;
+    }
+
+    .subtitulo{
+        padding: 15px 0px;
+    }
+
+    .conteudo{
+        padding: 12px 0px;
+        text-align: left;
+    }
+
+    .enviar{
+        height: 10vh;
+        width: 10vw;
+        margin: 20px 0px 0px 245px;
+    }
+
+    .btn-enviar{
+        height: 40px;
+    }
+}

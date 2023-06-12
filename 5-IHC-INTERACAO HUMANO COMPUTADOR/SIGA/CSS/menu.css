@@ -1,0 +1,119 @@
+.portal {
+    display: flex;
+}
+
+.menu-lateral {
+    width: 25vw;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.conteudo {
+    width: 20vw;
+    height: 80vh;
+    margin: 10vh 2.5vw;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.foto img {
+    width: 80px;
+    height: 80px;
+    margin: 35px;
+}
+
+.nome {
+    width: 20vw;
+    height: 5vh;
+    margin: 2.5vh 0;
+}
+
+.nome h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: #676767;
+}
+
+.info-user {
+    width: 20vw;
+    height: 50vh;
+}
+
+.info {
+    width: 20vw;
+    padding: 10px;
+    display: flex;
+}
+
+.span-padrao {
+    width: 5vw;
+    font-size: 18px;
+    font-weight: 500;
+    color: #676767;
+}
+
+.resposta-padrao {
+    width: 15vw;
+    font-size: 18px;
+    color: #676767;
+}
+
+.logout {
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link-logout {
+    display: flex;
+}
+
+.texto{
+    margin-top: 8px;
+}
+
+.logout span {
+    font-size: 20px;
+    color: #676767;
+}
+
+.logout img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .span-padrao {
+        width: 7vw;
+    }
+
+    .info-user {
+        width: 20vw;
+        height: 50vh;
+    }
+
+    .foto {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .foto img {
+        width: 50px;
+        height: 50px;
+        margin: 25px;
+    }
+}
