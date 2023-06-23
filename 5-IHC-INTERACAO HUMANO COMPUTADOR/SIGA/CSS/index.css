@@ -1,0 +1,113 @@
+header {
+    width: 100vw;
+    height: 10vh;
+}
+
+.logo {
+    width: 120px;
+    height: 80px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    margin: 10px 0px;
+}
+
+nav {
+    width: 90vw;
+    margin: 0 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.links-cabecalho {
+    justify-content: flex-end
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-size: 18px;
+    color: #676767;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a button {
+    width: 8vw;
+    height: 5vh;
+    background-color: #38A3A5;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.divulgacao {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+.img-estudante {
+    width: 50vw;
+    height: 90vh;
+    background-color: aqua;
+    justify-content: end;
+}
+
+.img-estudante img {
+    width: 406px;
+    height: 698px;
+}
+
+.texto-divulgacao {
+    width: 40vw;
+    height: 40vh;
+    margin: auto 0;
+    color: #676767;
+    text-align: center;
+}
+
+.texto-divulgacao h1 {
+    height: 10vh;
+    font-size: 80px;
+}
+
+.texto-divulgacao h2 {
+    height: 10vh;
+    font-size: 50px;
+}
+
+.texto-divulgacao p, b {
+    width: 20vw;
+    height: 10vh;
+    margin: auto;
+    font-size: 24px;
+}
+
+.texto-divulgacao button {
+    width: 15vw;
+    height: 6vh;
+    background-color: #38A3A5;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 5vh 0;
+}
