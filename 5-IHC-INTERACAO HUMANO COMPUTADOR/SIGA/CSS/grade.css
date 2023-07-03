@@ -1,9 +1,13 @@
 .grade{
     width: 65vw;
     height: 60vh;
-    margin: 10vh 5vw;
-    position: relative;
-    display: flex;
+    margin: 5vh 5vw 10vh 5vw;
+}
+
+.opcao{
+    width: 65vw;
+    height: 5vh;
+    margin: 5vh 0vw 0vh 5vw;
 }
 
 table{
@@ -60,10 +64,5 @@ td p:nth-child(2){
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .span-padrao {
         width: 7vw;
-    }
-
-    .info-user {
-        width: 20vw;
-        height: 40vh;
     }
 }

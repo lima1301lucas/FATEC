@@ -1,0 +1,91 @@
+.funcoes {
+    width: 65vw;
+    margin: 5vh 5vw;
+    position: relative;
+}
+
+.opcao {
+    width: 65vw;
+    height: 5vh;
+    margin: 5vh 0vw 0vh 5vw;
+}
+
+.conteudo-grade{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.bloco-disciplina {
+    width: 65vw;
+    margin-bottom: 30px;
+}
+
+.detalhes {
+    width: 65vw;
+    height: 5vh;
+    background-color: #38A3A5;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+}
+
+.titulo {
+    width: 60vw;
+    height: auto;
+    margin: 12px 15px;
+}
+
+.titulo h2 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ver-mais {
+    margin: 12px 15px;
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.ver-mais::before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../IMG/chevron-down.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ver-mais.active::before {
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+
+.descricao-materia {
+    width: 65vw;
+    height: auto;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #d9d9d980;
+    display: none;
+}
+
+.descricao-materia.active {
+    display: block;
+}
+
+.descricao-materia p {
+    color: #3f3f3f;
+    padding: 12px 15px 15px 15px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .detalhes {
+        height: 7vh;
+    }
+
+}

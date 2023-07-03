@@ -1,0 +1,115 @@
+body{
+    overflow: hidden;
+}
+
+.cursos {
+    width: 75vw;
+    height: 100vh;
+    margin: 0vh 0vw 0vh 5vw;
+    /* justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    overflow-x: hidden; */
+}
+
+.opcoes {
+    width: 75vw;
+    margin-top: 5vh;
+    display: flex;
+}
+
+.volta{
+    width: 70%
+}
+
+.editar-curso {
+    width: 10vw;
+    height: 5vh;
+    margin-left: 0vw;
+}
+
+.novo-curso {
+    height: 5vh;
+    margin-left: 2VW;
+}
+
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: #38A3A5;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+}
+
+.mostra-cursos {
+    width: 65vw;
+    margin: 2vh 0vw;
+}
+
+.bloco-disciplina {
+    width: 65vw;
+    margin-bottom: 30px;
+}
+
+.detalhes {
+    width: 65vw;
+    height: 5vh;
+    background-color: #38A3A5;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+}
+
+.titulo {
+    width: 60vw;
+    height: auto;
+    margin: 12px 15px;
+}
+
+.titulo h2 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.editar img {
+    width: 20px;
+    height: 20px;
+    margin: 12px 18px;
+}
+
+.ver-mais {
+    margin: 12px 15px 12px 0px;
+}
+
+.ver-mais img{
+    width: 20px;
+    height: 20px;
+}
+
+.descricao-materia {
+    width: 65vw;
+    height: auto;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #d9d9d980;
+}
+
+.descricao-materia p {
+    color: #3f3f3f;
+    padding: 12px 15px 15px 15px;
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .detalhes {
+        width: 65vw;
+        height: 7vh;
+        background-color: #38A3A5;
+        border-radius: 5px 5px 0px 0px;
+        display: flex;
+    }
+}

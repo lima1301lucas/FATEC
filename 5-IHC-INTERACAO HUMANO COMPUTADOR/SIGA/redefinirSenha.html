@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/geral.css">
-    <link rel="stylesheet" href="CSS/senha.css">
+    <link rel="stylesheet" href="CSS/redefine-senha.css">
+    <script src="JS/redefineSenha.js" defer></script>
     <title>Redefinir senha</title>
 </head>
 <body>
@@ -14,24 +14,23 @@
             <div class="form-senha">
                 <form>
                     <div class="user">
-                        <p class="label-input">Registro de aluno:</p>
-                        <input type="text">
+                        <p class="label-input">E-mail:</p>
+                        <input type="email" class="inp-email" id="inp-email">
                     </div>
                     <div class="senha">
                         <p class="label-input">Senha:</p>
-                        <input type="password">
+                        <input type="password" id="inp-pswd">
                     </div>
                     <div class="senha">
                         <p class="label-input">Confirme a nova senha:</p>
-                        <input type="password">
+                        <input type="password" id="inp-confirma-pswd">
                     </div>
                     <div class="btn-login">
-                        <button>SALVAR</button>
+                        <button onclick="redefineSenha()">REDEFINIR</button>
                     </div>
                 </form>
             </div>
         </div>
     </section>
 </body>
-
 </html>

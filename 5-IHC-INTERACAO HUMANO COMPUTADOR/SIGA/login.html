@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/geral.css">
     <link rel="stylesheet" href="CSS/login.css">
     <title>Login</title>
 </head>
@@ -15,22 +14,23 @@
                 <form>
                     <div class="user">
                         <p class="label-input">E-mail:</p>
-                        <input type="text" class="inp-email">
+                        <input type="email" class="inp-email" id="inp-email">
                     </div>
                     <div class="senha">
                         <p class="label-input">Senha:</p>
-                        <input type="password" class="inp-rg">
+                        <input type="password" class="inp-pswd" id="inp-pswd">
                     </div>
                     <div class="redefinir-senha">
-                        <nav><a href="">Esqueceu a senha?</a></nav>
+                        <nav><a href="redefinirSenha.html">Esqueceu a senha?</a></nav>
                     </div>
                     <div class="btn-login">
-                        <button>ENTRAR</button>
+                        <button id="login" type="button">ENTRAR</button>
                     </div>
                 </form>
             </div>
         </div>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="JS/login.js" defer></script>
 </body>
-
 </html>

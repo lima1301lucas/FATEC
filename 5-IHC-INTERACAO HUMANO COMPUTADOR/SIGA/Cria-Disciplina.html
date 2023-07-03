@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/geral.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/editaCurso.css">
+    <title>Portal do professor</title>
+</head>
+
+<body>
+    <section class="portal">
+        <aside class="menu-lateral">
+            <div class="conteudo">
+                <div class="foto">
+                    <img src="IMG/user.svg">
+                </div>
+                <div class="nome">
+                    <h2>Administrador</h2>
+                </div>
+                <div class="info-user">
+                    <div class="info">
+                        <span class="span-padrao">Registro:</span>
+                        <p class="resposta-padrao">21106558</p>
+                    </div>
+                    <div class="info">
+                        <span class="span-padrao">Curso:</span>
+                        <p class="resposta-padrao"></p>
+                    </div>
+                    <div class="info">
+                        <span class="span-padrao">Cargo:</span>
+                        <p class="resposta-padrao">Administrador</p>
+                    </div>
+                </div>
+                <div class="logout">
+                    <nav>
+                        <a href="login.html" class="link-logout"><span>Sair</span><img src="IMG/log-out.svg"><a>
+                    </nav>
+                </div>
+            </div>
+        </aside>
+        <main class="funcoes">
+            <div class="opcoes">
+                <div class="volta">
+                    <nav>
+                        <a href="Coordenador-Disciplinas.html">
+                            <img src="IMG/arrow-left.svg" alt="">
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <section class="form-matricula">
+                <form>
+                    <div class="form-conteudo">
+                        <div class="nome-materia">
+                            <p class="label-input">Nome:</p>
+                            <input type="text" class="inp-nome">
+                        </div>
+                        <div class="rg">
+                            <p class="label-input">Sigla:</p>
+                            <input type="text" class="inp-rg">
+                        </div>
+                        <div class="curso">
+                            <p class="label-input">Curso:</p>
+                            <select name="" id="cursos" class="inp-curso">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-conteudo">
+                        <div class="nome-area">
+                            <p class="label-input">Professor:</p>
+                            <select name="" id="professores" class="inp-area">
+                            </select>
+                        </div>
+                        <div class="telefone">
+                            <p class="label-input">Carga horária:</p>
+                            <input type="text" class="inp-telefone">
+                        </div>
+                        <div class="telefone">
+                            <p class="label-input">Semestre:</p>
+                            <select name="" id="" class="inp-area">
+                                <option value="0" selected></option>
+                                <option value="">1</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-conteudo">
+                        <div class="descricao">
+                            <p class="label-input">Descrição:</p>
+                            <textarea class="inp-desc"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-conteudo">
+                        <div class="enviar">
+                            <button class="btn-enviar">SALVAR</button>
+                        </div>
+                    </div>
+                </form>
+        </main>
+
+    </section>
+    <script src="Coodenador-EditaDisciplina.js"></script>
+</body>
+
+</html>

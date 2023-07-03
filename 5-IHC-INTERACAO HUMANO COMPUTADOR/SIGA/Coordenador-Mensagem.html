@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/geral.css">
     <link rel="stylesheet" href="CSS/menu.css">
-    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/mensagem-coordenador.css">
     <title>Portal do professor</title>
 </head>
 
@@ -18,7 +17,7 @@
                     <img src="IMG/user.svg">
                 </div>
                 <div class="nome">
-                    <h2>Thiago Filho</h2>
+                    <h2>Antônio Grecco</h2>
                 </div>
                 <div class="info-user">
                     <div class="info">
@@ -31,7 +30,7 @@
                     </div>
                     <div class="info">
                         <span class="span-padrao">Cargo:</span>
-                        <p class="resposta-padrao">Professor</p>
+                        <p class="resposta-padrao">Coordenador</p>
                     </div>
                 </div>
                 <div class="logout">
@@ -42,28 +41,37 @@
             </div>
         </aside>
         <main class="funcoes">
-            <div class="bloco">
-                <div class="link-func">
-                    <a href="Professor-Grade.html">
-                        <div class="img-icon">
-                            <img src="IMG/grid.svg">
-                        </div>
-                        <div class="nome-link"><span>GRADE HORÁRIA</span></div>
-                    </a>
+            <div class="opcoes">
+                <div class="volta">
+                    <nav>
+                        <a href="Coordenador-Home.html">
+                            <img src="IMG/arrow-left.svg" alt="">
+                        </a>
+                    </nav>
                 </div>
             </div>
-            <div class="bloco">
-                <div class="link-func">
-                    <a href="Professor-Disciplinas.html">
-                        <div class="img-icon">
-                            <img src="IMG/layers.svg">
+            <section class="form-matricula">
+                <form>
+                    <div class="form-conteudo">
+                        <div class="nome-mensagem">
+                            <p class="label-input">Título:</p>
+                            <input type="text" class="inp-titulo">
                         </div>
-                        <div class="nome-link"><span>DISICPLINA</span></div>
-                    </a>
-                </div>
-            </div>
+                    </div>
+                    <div class="form-conteudo">
+                        <div class="descricao">
+                            <p class="label-input">Descrição:</p>
+                            <textarea class="inp-desc"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-conteudo">
+                        <div class="enviar">
+                            <button class="btn-enviar">ENVIAR</button>
+                        </div>
+                    </div>
+                </form>
         </main>
+
     </section>
 </body>
-
 </html>
