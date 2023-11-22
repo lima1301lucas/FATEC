@@ -1,0 +1,25 @@
+version: '3.3'
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'jogodaonca'
+      MYSQL_USER: 'jogodaonca'
+      MYSQL_PASSWORD: 'jogodaonca'
+      MYSQL_ROOT_PASSWORD: 'jogodaonca'
+    ports:
+      - '3309:3306'
+    expose:
+      - '3306'
+    volumes:
+      - ./initdb.sql:/docker-entrypoint-initdb.d/initdb.sql
+  redis:
+    image: redis:alpine
+    restart: always
+    ports:
+      - '6979:6379'
+    expose:
+      - '6379'
+volumes:
+  mysql-data:
