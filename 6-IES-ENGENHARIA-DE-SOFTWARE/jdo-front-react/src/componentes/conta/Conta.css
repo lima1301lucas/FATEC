@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Vollkorn:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Londrina Solid', cursive;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.bg-conta {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/public/assets/imagens/backgrounds/cenario_conta-colecao.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-conta-container {
+    width: 90vw;
+    height: 95vh;
+    z-index: 1;
+    margin: 2.5vh auto;
+}
+
+.menu-superior-conta{
+    width: 85vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-conta{
+    width: 5vw;
+    height: 8vh;
+}
+
+.item-retorno-conta{
+    width: 80%;
+    height: 80%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/assets/imagens/placas/placa_icones.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+}
+
+.icon-retorno-conta{
+    width: 55%;
+    height: 70%;
+    background-image: url('/public/assets/imagens/icones/return.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.titulo-conta {
+    width: 85vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placa-titulo-conta {
+    min-width: 200px; 
+    min-height: 100px; 
+    height: 100%;
+    margin: 10px;
+    background-image: url('/public/assets/imagens/placas/placa_subtitulo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+h1{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 2em;
+    color: #5E2C12;
+}
+
+.content-main-conta{
+    width: 90vw;
+    height: 85vh;
+    margin: 1vh auto;
+}
+
+.content-main-superior-conta{
+    width: 60vw;
+    height: 55vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.historico-user-conta{
+    width: 90vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infos-user-conta{
+    width: 30vw;
+    height: 40vh;
+}
+
+.info-conta{
+    width: 30vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.info-conta > label{
+    width: 15%;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 1.8em;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.info-conta > input{
+    margin-left: 10px;
+    width: 75%;
+    height: 60%;
+    padding: 10px;
+    font-size: 1.8em;
+    font-family: 'Londrina Solid', cursive;
+    color: #5E2C12;
+    border: none;
+    border-radius: 2px;
+}
+
+.info-conta > .btn-atualiza{
+    margin-left: 10px;
+    width: 75%;
+    height: 60%;
+    font-size: 1.8em;
+    font-family: 'Londrina Solid', cursive;
+    color: #E6B789;
+    background-color: #5E2C12;
+    border: none;
+}
+
+.info-conta > .btn-atualiza:hover{
+    border: 3px solid #331809;
+}
+
+.emblemas-conta{
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 4;
+}
+
+.emblema-item-conta {
+    width: 22%;
+    height: 33%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon-emblema-conquistado{
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    outline: none;
+}
+
+.icon-emblema-nao-conquistado{
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    outline: none;
+}
+
+.inp-senha{
+    width: 70% !important;
+    border-radius: 2px 0px 0px 2px !important;
+}
+
+.btn-senha-conta {
+    width: 5%;
+    height: 60%;
+    background-color: #fff !important;
+    border-radius: 0px 2px 2px 0px;
+}
+
+
+.emblema-item-conta:nth-child(1) .icon-emblema-conquistado {
+    background-image: url('/public/assets/imagens/emblemas/emb-1.png');
+}
+
+.emblema-item-conta:nth-child(2) .icon-emblema-conquistado {
+    background-image: url('/public/assets/imagens/emblemas/emb-2.png');
+}
+
+.emblema-item-conta:nth-child(3) .icon-emblema-conquistado {
+    background-image: url('/public/assets/imagens/emblemas/emb-3.png');
+}
+
+.emblema-item-conta:nth-child(4) .icon-emblema-conquistado {
+    background-image: url('/public/assets/imagens/emblemas/emb-4.png');
+}
+
+.emblema-item-conta:nth-child(5) .icon-emblema-conquistado {
+    background-image: url('/public/assets/imagens/emblemas/emb-5.png');
+}
+
+.emblema-item-conta:nth-child(6) .icon-emblema-conquistado {
+    background-image: url('/public/assets/imagens/emblemas/emb-6.png');
+}
+
+.emblema-item-conta:nth-child(7) .icon-emblema-conquistado {
+    background-image: url('/public/assets/imagens/emblemas/emb-7.png');
+}
+
+.emblema-item-conta:nth-child(8) .icon-emblema-conquistado {
+    background-image: url('/public/assets/imagens/emblemas/emb-8.png');
+}
+
+.emblema-item-conta:nth-child(9) .icon-emblema-conquistado {
+    background-image: url('/public/assets/imagens/emblemas/emb-10.png');
+}
+
+.emblema-item-conta:nth-child(10) .icon-emblema-conquistado {
+    background-image: url('/public/assets/imagens/emblemas/emb-12.png');
+}
+
+.icon-emblema-nao-conquistado{
+    background-image: url('/public/assets/imagens/emblemas/emb-vazio.png');
+} 
+
+.tooltip-text-conta {
+    visibility: hidden;
+    position: absolute;
+    flex-grow: 1;
+    z-index: 1;
+    height: auto;
+    color: #E6B789;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 1.2em;
+    background-color: #5E2C12;
+    padding: 15px;
+}
+
+.emblema-item-conta:hover .tooltip-text-conta {
+    visibility: visible;
+}
+
+#top {
+    margin-top: -150px;
+    margin-left: -100px;
+}  
+
+.placa-conta{
+    width: 90%;
+    height: 100%;
+    margin: 10px 5px;
+    background-image: url('/public/assets/imagens/placas/placa_home.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.placa-itens-conta{
+    width: 70%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-vit-conta{
+    width: 30%;
+    height: 90%;
+    margin: 2.5% 0;
+    background-image: url('/public/assets/imagens/vetores/vitorias.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.info-item-conta{
+    width: 50%;
+    height: 80%;
+}
+
+.icon-der-conta{
+    width: 30%;
+    height: 80%;
+    margin-bottom: 5%;
+    background-image: url('/public/assets/imagens/vetores/derrotas.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.historico-vitoria-conta{
+    width: 30vw;
+    height: 30vh;
+}
+
+.historico-derrota-conta{
+    width: 30vw;
+    height: 30vh;
+}
+
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+    .icon-vit-conta{
+        width: 25%;
+        height: 40%;
+        margin-bottom: 5%;
+        background-image: url('/public/assets/imagens/vetores/vitorias.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .icon-der-conta{
+        width: 25%;
+        height: 35%;
+        margin-bottom: 5%;
+        background-image: url('/public/assets/imagens/vetores/derrotas.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+     
+    .hover-text-conta > img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .info-conta > label{
+        width: 18%;
+        font-size: 1.6em;
+    }
+
+    .info-conta > input{
+        height: 70%;
+        font-size: 1.6em;
+    }
+
+    .info-conta > .btn-atualiza{
+        height: 75%;
+    }
+
+    .icon-emblema-conquistado{
+        width: 80px;
+        height: 80px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
